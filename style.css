@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+}
+
+.wrapit {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.description {
+  text-align: center;
+}
+
+.letsgo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.playernameinput {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.playernames {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerresult {
+  padding-top: 10px;
+}
+
+.spielfeld {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.wrapper {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  border: solid 1px red;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.wrapper .field {
+  border: solid 1px red;
+}
+
+.restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.startgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
